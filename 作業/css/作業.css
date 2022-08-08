@@ -1,0 +1,68 @@
+body{
+	margin: 0 auto;  /*margin 沒有外距*/
+	height: 100%;
+
+
+}
+
+#wrapper{
+	min-height: 100%;/*整個區塊高度為100%*/
+	margin-bottom: -100px; /*等一下 footer 的高度會是100px 底-100 footer多少這個就要-多少*/
+}
+#banner{
+	
+	height: 100px;
+	width: 100%;
+
+}
+#menu{
+	height: 50px;
+	width: 100%;
+	background-color: #DB7318;
+	color: #ffffff; /*區塊內的文字為白色*/
+}
+#content{
+	width: 100%;
+	background-color: #00ff00;
+}
+#content img{
+	width: 100%;
+	min-height: 300px;
+}
+#footer{
+	width: 100%;
+	height: 100px;
+	background-color: #000000;
+	color: #ffffff;
+}
+#left{
+	min-width: 15px;
+	float: left;
+	height: 90px;
+	width: 10%;
+}
+.right{
+	min-width: 15px;
+	float: right;
+	height: 90px;
+	width: 10%
+}
+.info{
+	width: 20%;
+	height: 300px;
+	float: left; ; /*設定此區塊為浮塊，會浮起來喔！！可靠左 left、可靠右 right*/	
+
+	/*
+	padding 內部距離,  padding-top 上面 left 左 right 右 bottom 底
+	padding:上 右 下 左; padding:上下 左右; padding:上 左右 下;
+	padding:10px 20px 30px 40px;
+	padding:20px 10px;
+	padding:同值;
+	*/
+	padding: 0px; /*上下左右 都20px */
+
+	/*margin 外部距離，內容上 padding*/
+	margin: 33px;
+
+
+}
